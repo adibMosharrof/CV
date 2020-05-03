@@ -120,6 +120,7 @@ def kmeans():
     
     print("K-NN on CIFAR dataset with L1 distance: test accuracy = {:.2f}".format(accuracy1*100))
     print("K-NN on CIFAR dataset with L2 distance: test accuracy = {:.2f}".format(accuracy2*100))
+    a=1
 
 def imshow(img):
     img = img / 2 + 0.5     # unnormalize
